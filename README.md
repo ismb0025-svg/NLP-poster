@@ -28,15 +28,16 @@ python experiment3_less_data.py
 - `experiment2_cleaning.py` – does cleaning the text help?
 - `experiment3_less_data.py` – fewer training articles per author
 - `experiment4_word_vectors.py` – GloVe word vectors
+- `experiment5_important_words.py` – which words matter most for each author
 
 ## Results
 
 | Representation | Correct authors |
 |---|---|
-| Char n-gram TF-IDF | 76.3 % |
+| Char n-gram TF-IDF | 76.2 % |
 | Word TF-IDF | 73.9 % |
 | Bag-of-words | 72.9 % |
-| GloVe (word vectors) | 61.7 % |
+| GloVe (word vectors) | 63.4 % |
 
 Cleaning the text never helped. Character n-grams also win when only a few
 training articles per author are available.
